@@ -10,7 +10,7 @@ sudo apt-get install -y nodejs npm
 sudo apt-get install -y tesseract-ocr libtesseract-dev
 
 # Install packages with pip
-pip3 install nltk transformers vaderSentiment fuzzywuzzy pytesseract python-Levenshtein python-dotenv
+pip3 install nltk transformers vaderSentiment fuzzywuzzy pytesseract python-Levenshtein python-dotenv praw logging dotev
 
 # Add Python user bin to PATH
 echo "export PATH=$PATH:/home/$USER/.local/bin" >> ~/.bashrc
